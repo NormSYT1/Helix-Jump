@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Ball : MonoBehaviour
 {
     public Rigidbody rb;//Rigidbody'ye eriþim
-    public float jump = 7f;//Zýplama deðiþkeni
+    public float jump = 7.3f;//Zýplama deðiþkeni
     public GameObject splash, panel;//Oyun nesnesine eriþmek için gerekli deðiþkenleri
     GameSettings control1;//Baþka script'deki deðiþkenlere eriþim için
     public Button button1, button2;//Buton deðiþkenleri

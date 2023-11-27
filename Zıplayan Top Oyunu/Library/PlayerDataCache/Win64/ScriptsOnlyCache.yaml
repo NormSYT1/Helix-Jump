@@ -710,5 +710,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainScene.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/drogb/Desktop/Yap\u0131lan Oyunlar/Z\u0131playan Top Oyunu/Helix
-    Jump.exe"
+  playerPath: "C:/Users/drogb/Desktop/Yap\u0131lan Oyunlar/Biten Oyunlar/Z\u0131playan
+    Top Oyunu/Helix Jump.exe"

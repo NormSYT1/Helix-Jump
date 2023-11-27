@@ -1,464 +1,463 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1684958212261336, "dur":1643, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212262989, "dur":61, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1684958212263073, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1684958212263092, "dur":655, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1684958212263829, "dur":1556, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212265385, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599131, "dur":401, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599532, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599551, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599554, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599562, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599564, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599574, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599575, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599582, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599584, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599593, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599595, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599605, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599608, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599619, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599622, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599631, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599664, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212599698, "dur":2500, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1684958212264567, "dur":835, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684958212265408, "dur":8620, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684958212274049, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1684958212274061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684958212276243, "dur":699, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1684958212276950, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1684958212277052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684958212277687, "dur":5339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1684958212283030, "dur":11615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1684958212294702, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684958212294724, "dur":2965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1684958212297818, "dur":33027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1684958212330855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684958212330873, "dur":3418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1684958212334372, "dur":14334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1684958212348716, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684958212348734, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1684958212350727, "dur":241027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684958212591807, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1684958212591825, "dur":7150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1684958212599065, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":1, "ts":1684958212599072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212264570, "dur":846, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212265417, "dur":8654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212274072, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1684958212274343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212278556, "dur":9252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1684958212287889, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1684958212288364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212288384, "dur":89304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1684958212377764, "dur":88999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump.exe" }}
-,{ "pid":12345, "tid":2, "ts":1684958212466819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212466833, "dur":6336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump.exe" }}
-,{ "pid":12345, "tid":2, "ts":1684958212473265, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212473745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212473777, "dur":5144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212479019, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212479317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212479331, "dur":3436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212482846, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212483182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212483194, "dur":4446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212487742, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212488046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212488060, "dur":3501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212491640, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212491901, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212491915, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212496529, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212496814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212496826, "dur":5694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212502600, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212503644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212503658, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212506239, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212507123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212507139, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212509877, "dur":8148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212518031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212518044, "dur":7967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1684958212526091, "dur":20087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1684958212546185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1684958212546203, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1684958212549026, "dur":50073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684958212264570, "dur":857, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684958212265429, "dur":8610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684958212274050, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1684958212274644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684958212278849, "dur":75169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1684958212354105, "dur":204962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684958212559076, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1684958212559090, "dur":21822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1684958212580995, "dur":18102, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212264630, "dur":810, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212265441, "dur":8600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212274051, "dur":13138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1684958212287197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212287228, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1684958212289433, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1684958212289665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212289680, "dur":132195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1684958212421956, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212422368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212422381, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212424850, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212425134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212425150, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212428200, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212428537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212428552, "dur":5217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212433854, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212434323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212434335, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212437169, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212437558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212437570, "dur":3710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212441364, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212441730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212441741, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212445370, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212445682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212445694, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212448202, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212448758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212448774, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212452993, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212453240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212453252, "dur":3696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212457022, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212457297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212457312, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212461158, "dur":666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212461833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212461850, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212465773, "dur":1097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212466877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212466892, "dur":3412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212470374, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212470644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212470658, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212474108, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212474378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212474394, "dur":4877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212479350, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212479624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212479639, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212483577, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212483875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212483887, "dur":5094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212489064, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212489470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212489482, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212492064, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212492740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212492789, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212495973, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212496603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212496617, "dur":5592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212502297, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212502613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212502627, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212504962, "dur":2189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212507156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212507168, "dur":23009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1684958212530258, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1684958212530340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1684958212530352, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level0.resS" }}
-,{ "pid":12345, "tid":4, "ts":1684958212532874, "dur":66254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212264668, "dur":780, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212265449, "dur":8583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212274049, "dur":15093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1684958212289149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212289330, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1684958212291553, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1684958212292075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212292758, "dur":64048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1684958212356884, "dur":60011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1684958212416904, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212416919, "dur":2808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1684958212419807, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212420099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212420112, "dur":4063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212424293, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212424736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212424751, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212428402, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212428650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212428707, "dur":7136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212435921, "dur":4029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212439959, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212440073, "dur":3631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212443814, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212444586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212444600, "dur":3544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212448240, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212448508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212448521, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212452388, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212452921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212452937, "dur":4077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212457091, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212457339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212457349, "dur":5970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212463390, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212463646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212463659, "dur":5982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212469958, "dur":2201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212472190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212472284, "dur":4211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212476596, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212476869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212476882, "dur":3854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212480820, "dur":2259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212483085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212483099, "dur":5155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212488365, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212488848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212488862, "dur":6857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212495807, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212496433, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212496462, "dur":13245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212509782, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212510125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212510139, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1684958212514398, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1684958212514474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212514492, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1684958212517678, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1684958212517798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212517812, "dur":4653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1684958212522578, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1684958212522865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212522884, "dur":5427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1684958212528424, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1684958212528541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212528555, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1684958212531463, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1684958212531540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1684958212531550, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1684958212533455, "dur":65664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212264714, "dur":743, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212265457, "dur":8580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212274050, "dur":12094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1684958212286153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212286186, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1684958212288564, "dur":17684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1684958212306260, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212306283, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1684958212308524, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1684958212308721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212308739, "dur":27502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1684958212336334, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1684958212336751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212336769, "dur":3497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1684958212340386, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1684958212340609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212340625, "dur":2451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1684958212343161, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1684958212343560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212343576, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1684958212346029, "dur":82642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212428703, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212428955, "dur":7848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212436884, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212437452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212437508, "dur":3900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212441489, "dur":2028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212443524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212443538, "dur":5232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212448863, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212449251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212449262, "dur":6850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212456281, "dur":1239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212457526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212457537, "dur":6297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212463925, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212464203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212464214, "dur":5250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212469537, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212469788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212469802, "dur":6074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212475960, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212476364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212476381, "dur":4873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212481330, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212481646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212481660, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212485708, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212486172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212486184, "dur":4265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212490524, "dur":6311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212496840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212496851, "dur":6590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212503518, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212503774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212503787, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212505916, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212506324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212506349, "dur":3611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212510049, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212510683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212510697, "dur":3876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1684958212514655, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":6, "ts":1684958212514734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212514748, "dur":3763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":6, "ts":1684958212518585, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1684958212518658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212518669, "dur":9558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":6, "ts":1684958212528356, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level1.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684958212528468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212528481, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level1.resS" }}
-,{ "pid":12345, "tid":6, "ts":1684958212532373, "dur":10759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1684958212543140, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1684958212543156, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/boot.config" }}
-,{ "pid":12345, "tid":6, "ts":1684958212545286, "dur":53822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212264771, "dur":693, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212265465, "dur":8570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212274050, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1684958212274341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212279771, "dur":122460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1684958212402637, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1684958212402871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212403350, "dur":37908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1684958212441340, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212441630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212441643, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212444538, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212444858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212444870, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212448223, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212448750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212448764, "dur":4155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212453063, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212453373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212453386, "dur":3767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212457230, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212457733, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212457749, "dur":5745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212463561, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212464179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212464191, "dur":6472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212470796, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212471287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212471301, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212475931, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212476529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212476541, "dur":4565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212481175, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212481515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212481529, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212485375, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212485952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212485966, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212489720, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212490516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212490529, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212493575, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212494315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212494333, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212497951, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212498356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212498369, "dur":4964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212503412, "dur":3947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212507365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212507377, "dur":4311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212511763, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212512003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212512019, "dur":3361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1684958212515463, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1684958212515540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212515552, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1684958212518599, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1684958212518662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212518672, "dur":8508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1684958212527294, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1684958212527449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212527507, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1684958212530502, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1684958212530572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1684958212530582, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1684958212532826, "dur":66275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212264823, "dur":649, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212265472, "dur":8595, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212274067, "dur":603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1684958212274677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212278851, "dur":126193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1684958212405138, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212405501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212406036, "dur":7531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212413689, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212414018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212414036, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212417185, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212417497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212417510, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212419614, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212419906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212419922, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212422040, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212422287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212422302, "dur":4341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212426723, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212427046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212427062, "dur":6733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212433881, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212434159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212434176, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212436768, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212437237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212437262, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212441226, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212441515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212441529, "dur":5268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212446881, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212447185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212447199, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212452388, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212452714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212452729, "dur":4301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212457116, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212457404, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212457421, "dur":5337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212462838, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212463297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212463311, "dur":8148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212471535, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212472095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212472110, "dur":4658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212476842, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212477279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212477292, "dur":4441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212481815, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212482112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212482125, "dur":3819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212486014, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212486349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212486406, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212490078, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212490500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212490513, "dur":4108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212494695, "dur":1847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212496550, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212496615, "dur":5950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212502686, "dur":4572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212507264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212507276, "dur":11918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1684958212519273, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1684958212519349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212519360, "dur":8441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1684958212527941, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/resources.assets" }}
-,{ "pid":12345, "tid":8, "ts":1684958212528062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212528074, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/resources.assets" }}
-,{ "pid":12345, "tid":8, "ts":1684958212531098, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":8, "ts":1684958212531177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1684958212531187, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":8, "ts":1684958212533028, "dur":66092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1684958212605102, "dur":3761, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1701027534344884, "dur":1532, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534346427, "dur":67, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1701027534346521, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1701027534346541, "dur":442, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1701027534347024, "dur":1025, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534348050, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572536, "dur":221, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572757, "dur":74, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572832, "dur":29, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572861, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572895, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572902, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572917, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572920, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572930, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572933, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572944, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572947, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572957, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572959, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572970, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572973, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572982, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534572995, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534573042, "dur":1859, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701027534347569, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534348063, "dur":7325, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534355403, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701027534355408, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534355604, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701027534355612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534358927, "dur":4228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701027534363166, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701027534363497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534363514, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701027534366704, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1701027534366796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534366809, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1701027534371442, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534371708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534372183, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534375057, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534375320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534375333, "dur":3734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534379143, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534379419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534379433, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534382502, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534383091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534383111, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534386342, "dur":1992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534388340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534388353, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534391831, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534392091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534392104, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534395451, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534395689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534395702, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534399774, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534400041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534400054, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534403113, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534403373, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534403394, "dur":3275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534406752, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534407155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534407164, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534409978, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534410239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534410252, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534412584, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534413033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534413047, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534416824, "dur":21594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534438426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534438442, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534440468, "dur":11339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534451816, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534451835, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534454084, "dur":13562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534467652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534467667, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534469776, "dur":903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534470686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534470702, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534472924, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534473138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534473151, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701027534475086, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534475158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534475170, "dur":2339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534477582, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534477659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534477670, "dur":4608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534482344, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534482418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534482430, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534484539, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534484619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534484633, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534486653, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534486739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534486751, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701027534489491, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1701027534489740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701027534489753, "dur":2122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1701027534491953, "dur":80559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701027534347675, "dur":404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701027534348079, "dur":7314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701027534355404, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701027534355582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701027534359914, "dur":4002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1701027534364067, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701027534364505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701027534364679, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701027534368305, "dur":202199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump.exe" }}
+,{ "pid":12345, "tid":2, "ts":1701027534570511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701027534570522, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump.exe" }}
+,{ "pid":12345, "tid":2, "ts":1701027534572484, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1701027534572487, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534347610, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534348069, "dur":7328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534355403, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701027534355574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534358779, "dur":4789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701027534363651, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1701027534363742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534363758, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1701027534366805, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1701027534366885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534366898, "dur":4468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1701027534371450, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534371755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534372148, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534374754, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534375037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534375053, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534377875, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534378161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534378173, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534380720, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534380970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534380983, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534384263, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534384538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534384553, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534387190, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534387472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534387487, "dur":3922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534391487, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534391755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534391768, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534394813, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534395081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534395094, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534398919, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534399157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534399170, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534402828, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534403095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534403108, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534406332, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534406599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534406613, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534409855, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534410105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534410118, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534412665, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534412994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534413007, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534416355, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534416745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534416759, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534418813, "dur":18186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534437009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534437026, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534439605, "dur":24318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534463932, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534463951, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534466718, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534466980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534466996, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534469389, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534469836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534469849, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534472117, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534472672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534472685, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701027534474715, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701027534474790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534474802, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701027534477465, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701027534477540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534477551, "dur":4680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1701027534482304, "dur":5598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1701027534487910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534487924, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1701027534490167, "dur":9718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1701027534499895, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701027534499913, "dur":3904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1701027534503898, "dur":68616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534347709, "dur":378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534348087, "dur":7308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534355404, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701027534355838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534360471, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701027534363693, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701027534363970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534364534, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1701027534367234, "dur":12568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534379809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534379910, "dur":6867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534386866, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534387162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534387175, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534390832, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534391108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534391123, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534394436, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534394697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534394711, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534397538, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534397923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534397938, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534401686, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534401928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534401942, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534405193, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534405516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534405529, "dur":3339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534408943, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534409225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534409240, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534411973, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534412293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534412307, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534415889, "dur":35919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534451817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534451835, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534454152, "dur":10918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534465076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534465094, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534467287, "dur":1892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534469186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534469200, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534472099, "dur":67202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534539308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701027534539321, "dur":4320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701027534543692, "dur":28821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534347766, "dur":329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534348095, "dur":7303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534355405, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1701027534355836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534360321, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1701027534363603, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1701027534363909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534363956, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1701027534366856, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534368026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534368461, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534371112, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534371452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534372000, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534374856, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534375438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534375452, "dur":3582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534379111, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534379373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534379387, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534382834, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534383325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534383340, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534386564, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534387156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534387170, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534390774, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534391122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534391136, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534394485, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534394735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534394748, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534398191, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534398829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534398842, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534402521, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534402902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534402915, "dur":3102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534406093, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534406351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534406398, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534409325, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534409613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534409627, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534412301, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534412569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534412583, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534415988, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534416236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534416252, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534418245, "dur":58072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534476325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534476341, "dur":5412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1701027534481888, "dur":6990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1701027534488885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1701027534489016, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1701027534491429, "dur":81105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534347806, "dur":296, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534348102, "dur":7298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534355403, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1701027534355573, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534359080, "dur":4496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1701027534363660, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1701027534363749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534365021, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1701027534367381, "dur":52262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701027534419649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534419662, "dur":18942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701027534438684, "dur":23224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701027534461918, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534461937, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701027534464754, "dur":3447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701027534468243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534468257, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701027534471961, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701027534472341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534472355, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1701027534474586, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1701027534474668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534474772, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1701027534476825, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701027534476903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534476914, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701027534480453, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701027534480551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534480566, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701027534482701, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701027534482777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534482898, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701027534484677, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1701027534484749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534484761, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1701027534486654, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1701027534486730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534486743, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1701027534488555, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701027534488638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1701027534488650, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1701027534490617, "dur":81900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534347841, "dur":264, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534348106, "dur":7285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534355404, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1701027534355834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534359591, "dur":3999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1701027534363708, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1701027534363798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534364472, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1701027534367569, "dur":2000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1701027534369574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534369585, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1701027534372076, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534372350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534372465, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534375034, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534375306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534375320, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534378590, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534378839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534378853, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534381384, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534381671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534381685, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534385267, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534385570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534385585, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534387905, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534388394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534388407, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534391854, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534392115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534392160, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534395067, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534395363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534395377, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534399062, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534399492, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534399548, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534402840, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534403342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534403355, "dur":3088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534406514, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534406759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534406772, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534409511, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534409763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534409777, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534412471, "dur":16574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534429055, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534429074, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534431177, "dur":22308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534453492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534453507, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534455929, "dur":48639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534504575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1701027534504591, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1701027534507212, "dur":65316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534347879, "dur":233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534348113, "dur":7293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534355406, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1701027534355573, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534359473, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1701027534363223, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1701027534363310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534363411, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1701027534365856, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1701027534365943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534365960, "dur":3009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1701027534369048, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1701027534369123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534369702, "dur":7446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1701027534377228, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534377476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534377491, "dur":2578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534380149, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534380569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534380584, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534384529, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534385370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534385384, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534387638, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534387917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534387933, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534391171, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534391542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534391555, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534394992, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534395268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534395281, "dur":4550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534399920, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534400184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534400198, "dur":3648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534403912, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534404097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534404109, "dur":4942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534409396, "dur":3581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534412984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534412997, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534416566, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534417297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534417310, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534419404, "dur":17874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534437286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534437344, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534439986, "dur":13855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534453848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534453861, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534456092, "dur":47864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534503963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1701027534503979, "dur":4152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/drogb/Desktop/Yaplan Oyunlar/Biten Oyunlar/Zplayan Top Oyunu/Helix Jump_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1701027534508224, "dur":64286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701027534576589, "dur":3688, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

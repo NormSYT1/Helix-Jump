@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-    public float turn = 350f;//Fareyi döndürmek için gereken yön deðiþkeni
+    public float turn = 400f;//Fareyi döndürmek için gereken yön deðiþkeni
     private float x_move = 1f;//X yönünde döndürmek hýz deðiþkeni 
     void Start()
     {
